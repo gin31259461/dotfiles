@@ -1,3 +1,9 @@
+[submodule "Arch-Hyprland"]
+	path = .config/hypr
+	url = https://github.com/gin31259461/Arch-Hyprland.git
+[submodule "NvChad_Config"]
+	path = .config/nvim
+	url = https://github.com/gin31259461/NvChad_Config.git
 [submodule "nvim-vscode"]
 	path = .config/nvim-vscode
 	url = https://github.com/gin31259461/nvim-vscode.git
