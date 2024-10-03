@@ -2,7 +2,7 @@ cd $HOME
 
 alias dot='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
-dot add README.md dotfiles.sh .gitconfig
+dot add README.md dotfiles.sh .gitconfig .gitmodules
 
 dot add .zshrc .zprofile .p10k.zsh
 
