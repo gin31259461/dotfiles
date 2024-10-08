@@ -14,7 +14,7 @@ dot add .config/code-flags.conf .config/electron-flags.conf \
   .config/swappy .config/swaync
 
 # gtk
-dot add .icons .config/gtk-3.0
+dot add .icons .config/gtk-3.0 .themes
 
 dot commit -m "Sync dotfiles"
 dot push origin main
