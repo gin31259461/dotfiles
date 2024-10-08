@@ -13,5 +13,8 @@ dot add .config/code-flags.conf .config/electron-flags.conf \
   .config/ags .config/fastfetch .config/qt5ct .config/qt6ct \
   .config/swappy .config/swaync
 
+# gtk
+dot add .gtkrc-2.0 .icons .config/gtk-3.0 .config/xsettingsd
+
 dot commit -m "Sync dotfiles"
 dot push origin main
