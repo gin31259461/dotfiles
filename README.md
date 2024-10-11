@@ -39,6 +39,10 @@ rsync --recursive --verbose --exclude '.git' tmpdotfiles/ $HOME/
 rm -rf tmpdotfiles
 ```
 
+## TODO
+
+- automated setup script for new machine
+
 ## References
 
 - [A simpler way to manage your dotfiles](https://www.anand-iyer.com/blog/2018/a-simpler-way-to-manage-your-dotfiles/)
