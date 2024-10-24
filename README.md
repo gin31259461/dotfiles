@@ -37,6 +37,9 @@ git clone --separate-git-dir=$HOME/.dotfiles \
 rsync --recursive --verbose --exclude '.git' tmpdotfiles/ $HOME/
 
 rm -rf tmpdotfiles
+
+# after restart terminal
+dot config --local status.showUntrackedFiles no
 ```
 
 ## TODO
