@@ -8,6 +8,8 @@ dot add .p10k.zsh .zshrc
 
 dot add .config/hypr/UserConfigs
 dot add .config/hypr/UserScripts
+dot add .config/hypr/README.md
+
 dot add .config/foot/
 
 dot commit -m "Sync dotfiles"
